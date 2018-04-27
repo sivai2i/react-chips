@@ -29,6 +29,9 @@ class Chips extends Component {
   
   onBlur = e => {
     this.refs.wrapper.focus();
+    if (e.target && e.target.value) {
+      this.addChip( e.target.value );
+    }
   }
 
   onFocus = e => {
