@@ -1,33 +1,64 @@
 {
-  "name": "react-chips",
-  "version": "0.6.3",
-  "description": "A flexible and easy to use Chips component for React",
-  "keywords": [
-    "react",
-    "react-component"
+  "_args": [
+    [
+      {
+        "raw": "react-chips@0.6.4",
+        "scope": null,
+        "escapedName": "react-chips",
+        "name": "react-chips",
+        "rawSpec": "0.6.4",
+        "spec": "0.6.4",
+        "type": "version"
+      },
+      "/home/ubuntu/siva/projects/I2I/react-chips"
+    ]
   ],
-  "main": "lib/index.js",
-  "scripts": {
-    "start": "node tools/devServer.js",
-    "test": "jest",
-    "test:watch": "npm run test -- --watch",
-    "test:coverage": "npm run test -- --coverage",
-    "build": "NODE_ENV=production ./tools/build.sh",
-    "buildSite": "NODE_ENV=production webpack --config webpack.config.prod.js --progress",
-    "prepublish": "npm run build",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook -c .storybook -o docs"
+  "_from": "react-chips@0.6.4",
+  "_id": "react-chips@0.6.4",
+  "_inCache": true,
+  "_location": "/react-chips",
+  "_nodeVersion": "8.6.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/react-chips-0.6.4.tgz_1507240997285_0.7345504097174853"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gregchamberlain/react-chips.git"
+  "_npmUser": {
+    "name": "gregchamberlain",
+    "email": "gregchamberlain94@gmail.com"
   },
-  "author": "Greg Chamberlain <gregchamberlain94@gmail.com> (https://gregchamberlain.github.io)",
-  "license": "ISC",
+  "_npmVersion": "5.3.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "react-chips@0.6.4",
+    "scope": null,
+    "escapedName": "react-chips",
+    "name": "react-chips",
+    "rawSpec": "0.6.4",
+    "spec": "0.6.4",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-chips/-/react-chips-0.6.4.tgz",
+  "_shasum": "609f58d4c72c57023495a21c5bfc55b4c3d5b7b0",
+  "_shrinkwrap": null,
+  "_spec": "react-chips@0.6.4",
+  "_where": "/home/ubuntu/siva/projects/I2I/react-chips",
+  "author": {
+    "name": "Greg Chamberlain",
+    "email": "gregchamberlain94@gmail.com",
+    "url": "https://gregchamberlain.github.io"
+  },
   "bugs": {
     "url": "https://github.com/gregchamberlain/react-chips/issues"
   },
-  "homepage": "https://github.com/gregchamberlain/react-chips#readme",
+  "dependencies": {
+    "radium": "^0.19.4",
+    "react-autosuggest": "^9.0.1",
+    "react-themeable": "^1.1.0"
+  },
+  "description": "A flexible and easy to use Chips component for React",
   "devDependencies": {
     "@kadira/storybook": "^2.21.0",
     "babel-cli": "^6.16.0",
@@ -52,13 +83,47 @@
     "webpack-dev-middleware": "^1.8.4",
     "webpack-hot-middleware": "^2.13.2"
   },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-UnaxzIXjcbg9p2Vpb8k5EjiYVWMGDFkH0KE6OOTf22nLOHp3sPeefu5bxBBsWIy9vnfQAOMzQYh57O+vyRcfxw==",
+    "shasum": "609f58d4c72c57023495a21c5bfc55b4c3d5b7b0",
+    "tarball": "https://registry.npmjs.org/react-chips/-/react-chips-0.6.4.tgz"
+  },
+  "gitHead": "ab563cef9768892f47e4e115b06b2f56b8416971",
+  "homepage": "https://github.com/gregchamberlain/react-chips#readme",
+  "keywords": [
+    "react",
+    "react-component"
+  ],
+  "license": "ISC",
+  "main": "lib/index.js",
+  "maintainers": [
+    {
+      "name": "gregchamberlain",
+      "email": "gregchamberlain94@gmail.com"
+    }
+  ],
+  "name": "react-chips",
+  "optionalDependencies": {},
   "peerDependencies": {
     "prop-types": "^15.5.9",
     "react": "^0.14.0 || ^15.3.0"
   },
-  "dependencies": {
-    "radium": "^0.19.4",
-    "react-autosuggest": "^9.0.1",
-    "react-themeable": "^1.1.0"
-  }
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gregchamberlain/react-chips.git"
+  },
+  "scripts": {
+    "build": "NODE_ENV=production ./tools/build.sh",
+    "build-storybook": "build-storybook -c .storybook -o docs",
+    "buildSite": "NODE_ENV=production webpack --config webpack.config.prod.js --progress",
+    "prepublish": "npm run build",
+    "start": "node tools/devServer.js",
+    "storybook": "start-storybook -p 6006",
+    "test": "jest",
+    "test:coverage": "npm run test -- --coverage",
+    "test:watch": "npm run test -- --watch"
+  },
+  "version": "0.6.4"
 }
